@@ -9,6 +9,15 @@ function generateNumber(max){
     else if(randomNumber >= 16 && randomNumber <= 30){
         console.log('the number is in I');
     }
+    else if(randomNumber >= 31 && randomNumber <= 45){
+        console.log('the number is in N');
+    }
+    else if(randomNumber >= 46 && randomNumber <= 60){
+        console.log('the number is in G');
+    }
+    else if(randomNumber >= 61 && randomNumber <= 75){
+        console.log('the number is in O');
+    }
     else{
         console.log('the number is invalid');
     }
