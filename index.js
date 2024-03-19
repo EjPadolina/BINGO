@@ -1,77 +1,32 @@
-console.log("Hello World");
 let B = false,
     I = false,
     N = false,
     G = false,
     O = false;
-
-
-    let BNum, INum, NNumber, GNumber, ONumber;
-
-
 function newNumber(maxNumber) {
-    // Addition = "+"
-    // Subtraction = "-"
-    // Multiplication = "*"
-    // Division = "/"
-    // Remainder = "%"
     let x = Math.floor(Math.random() * maxNumber) + 1;
-
-    // if...else if...else statement
-    // Conditional operator:
-    // GTE > =, LTE < =, EQ ==, NEQ ! =, AND &, OR ||
     if (x <= 15) {
-        console.log(New number ${x} belongs to "B");
         B = true;
-        BNumber = x;
+        console.log('The number is in B');
     } else if (x >= 16 && x <= 30) {
-        console.log(New number ${x} belongs to "I"); 
         I = true;
-        INumber = x;
+        console.log('The number is in I'); 
     } else if (x >= 31 && x <=45) {
-        console.log(New number ${x} belongs to "N");
-        N = true; 
-        NNumber = x;
-    } else if (x >= 46 && x <= 60) { 
-        console.log(New number ${x} belongs to "G");
-        G = true;
-        GNumber = x;
+        N = true;
+        console.log('The number is in N');
+    } else if (x >= 46 && x <=60) {
+            G = true;
+            console.log('The number is in G');
     } else if (x >= 61 && x <=75) {
-        console.log(New number ${x} belongs to "O");
         O = true;
-        ONumber = x;
+        console.log('The number is in O');
+    }
+    else{
+        console.log('the number is invalid');
     }
 
      if (B == true && I == true && N == true && G == true && O == true) {
-        console.log(BINGOOO!!!);
-        console.table({
-            B: BNumber,
-            I: INumber,
-            N: NNumber,
-            G: GNumber,
-            O: ONumber,
-        });
-    }
+        console.log('BINGOOO!!!');
 }
-
-newNumber(75);
-
-// LOOPS
-let counter = 5;
-// for (counter; counter >= 0; counter --) {
-   // console.log(Current counter is ${counter});
-
-// if (counter == 2) break;
-    
-// newNumber(75);
-    
-// }
-
-// while (counter >= 0) {
-   // console.log(While, Current counter is ${counter});
-  // counter--;
- // }
- 
- while (B == false ||  I == false || N == false ||  G == false ||  O == false ) {
-    newNumber(75);
-   }
+return console.log(x);
+}
