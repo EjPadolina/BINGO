@@ -1,11 +1,25 @@
-<h1>Bingo File For Block 3</h1>
-<h3>Eduard June C Padolina</h3>
-<h3>BSIT 1-3</h3>
-
+<!DOCTYPE html>
+<html>
 <body>
-<p>
-  This Particular Commit is for Readme file only it doesnt change the index file for the Bingo file.
-  I'm Recooping my html skill since grade 8 so bare with me please
-</p>
-  
+  <div class="wrapper">
+    
+    <div class="left">
+      <img class="profile-picture" src="https://www.facebook.com/photo/?fbid=2030898900608170&set=a.122903094741103" width="200"/>
+      <h1 class="name">Eduard June Padolina</h1>
+      <h4 class="subtitle">BSIT 1-3</h4>
+    </div>
+    
+    <div class="right">
+      <p class="bio">
+        Bachelor of Science Information Technology, Web Developer, Study at Wesleyan University-Philippines
+        Thanks for visiting my website.
+      </p>
+      <ul class="social-links">
+        <li><a href="https://github.com/ianjsikes](https://github.com/EjPadolina">Github</a></li>
+        <li><a href="https://www.facebook.com/itsmehurdahby">Facebook</a></li>
+      </ul>
+    </div>
+    
+  </div>
 </body>
+</html>
