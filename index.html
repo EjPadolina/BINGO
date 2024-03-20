@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bingo</title>
+    <title>Bingo!</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
     <div>
-        <table class="table table-bordered text-center table-hover">
+    <nav class="toggles">
+        <div class="Logo">BINGORETS</div>
+         <div class="nav-items">
+            <a href="https://github.com/EjPadolina">Github</a><a href="https://www.facebook.com/itsmehurdahby/">Facebook</a>
+            <a href="/" class="hoverContact">Contact</a>
+         </div>
+        </nav>
+    </div>
+    <div class="container">
+        <table id="tblBingo" class="table table-bordered text-center table-hover">
 <!--Main Table-->
             <thead>
                 <!--Heading-->
@@ -24,7 +33,7 @@
                 <th><h1>O</h1></th>
             </thead>
             <tbody><!--Body-->
-                <Div>
+                <Div class="letter-div">
                 <tr><!--Row-->
                     <td>1</td>
                     <td>16</td>
@@ -32,7 +41,6 @@
                     <td>45</td>
                     <td>60</td>
                 </tr>
-            </Div>
                 <tr><!--Row-->
                     <td>7</td>
                     <td>18</td>
@@ -41,9 +49,9 @@
                     <td>58</td>
                 </tr>
                 <tr><!--Row-->
-                    <td>8</td>
+                    <td>13</td>
                     <td>19</td>
-                    <td>35</td>
+                    <td>34</td>
                     <td>47</td>
                     <td>59</td>
                 </tr>
@@ -61,13 +69,27 @@
                     <td>47</td>
                     <td>59</td>
                 </tr>
+                </Div>
             </tbody>
             <tfoot><!--Foot-->
 
+                </div>
+                </div>
             </tfoot>
         </table>
     </div>
+    <div class="hero-container">
+        <div class="column-left">
+            <h3>BINGO GAME BSIT 1-3</h3>
+            <p>
+                For Educational Purpose only. Created by 
+                Eduard June Padolina. BSIT 1-3 for advance study
+                in WEB DEVELOPING.
+            </p>
+            <button>More games? Click Here</button>
 </body>
+<script src="./index.js">
+</script>
 
 
 

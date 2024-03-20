@@ -1,6 +1,6 @@
 <h1>Bingo File For Block 3</h1>
-<h3>Eduard June C Padolina</h3>
-<h3>BSIT 1-3</h3>
+<h2>Eduard June C Padolina</h3>
+<h4>BSIT 1-3</h3>
 
 <body>
 <p>

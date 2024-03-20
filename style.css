@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: #fdcc04;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tblBingo {
+    border-collapse: collapse;
+    height: 25rem;
+    width: 35rem;
+    text-align: center;
+    font-size: 20pt;
+    cursor: pointer;
+    margin-bottom: -11.5Rem;
+}
+
+#tblBingo td {
+    background-color: wheat;
+    padding: auto;
+    border-radius: 0%;
+    border: 0px solid #cccece;
+    
+    
+ }
+
+nav {
+     height: 30px;
+     background: transparent;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.Logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    padding: 0 1.5rem;
+}
+ 
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.03;
+}
+a:hover {
+    color: #000;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.hoverContact:hover {
+  color: #000;  
+}
+
+.hero {
+    background: #fdcc04;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    height: 95vh;
+    padding: 3 rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+}
+
+.column-left h3 {
+    margin-bottom: 0rem;
+    font-size: 2.5rem;
+}
+
+.column-left p {
+    margin-bottom: 1Rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #fdcc04;
+    background: #000;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover {
+    background: #cccece;
+    color: #000;
+}
