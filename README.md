@@ -7,5 +7,8 @@
   This Particular Commit is for Readme file only it doesnt change the index file for the Bingo file.
   I'm Recooping my html skill since grade 8 so bare with me please
 </p>
+<br>
+<p>wala po munang pake sa design basta mag function
+</p>
   
 </body>
